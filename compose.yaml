@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   php:
-    image: php:apache
+    image: php-progetto-sistemi
     container_name: sito-sistemi
     ports:
       - "80:80"
