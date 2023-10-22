@@ -3,6 +3,7 @@ version: "3.9"
 services:
   apache2:
     image: php:apache
+    restart: always
     ports:
       - "80:80"
     volumes:
