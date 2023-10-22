@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   apache2:
-    image: httpd:latest
+    image: php:apache
     ports:
       - "80:80"
     volumes:
